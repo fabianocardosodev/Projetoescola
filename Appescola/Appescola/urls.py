@@ -22,5 +22,7 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
     path('appnotas/', include("appnotas.urls", namespace='appnotas')),
     
+    
+    
 ]
 
