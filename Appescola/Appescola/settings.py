@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'appnotas.apps.AppnotasConfig',
+    'notasalunos.apps.NotasalunosConfig',
     'django.contrib.sites',
     #3rd party
     'allauth',
