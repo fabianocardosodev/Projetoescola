@@ -22,7 +22,7 @@ urlpatterns = [
     #django admin
     path('admin/', admin.site.urls),
     # user management
-    
+    url('accounts/', include('cadastro.urls', namespace='cadastro')),
     path('appnotas/', include("appnotas.urls", namespace='appnotas')),
     url('notasalunos/', include("notasalunos.urls", namespace='notasalunos')),
         
