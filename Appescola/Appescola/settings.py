@@ -40,11 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'appnotas.apps.AppnotasConfig',
     'notasalunos.apps.NotasalunosConfig',
-    'django.contrib.sites',
-    #3rd party
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
+    
 ]
 
 MIDDLEWARE = [
@@ -132,11 +128,3 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# django-allauth
-
-AUTHENTICATION_BACKENDS = [
-    'django.contrib.auth.backends.ModelBackend',
-    'allauth.account.auth_backends.AuthenticationBackend',
-]
-
-SITE_ID = 1

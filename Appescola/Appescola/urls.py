@@ -21,7 +21,8 @@ from django.conf.urls import url
 urlpatterns = [
     #django admin
     path('admin/', admin.site.urls),
-    path('accounts/', include('allauth.urls')),
+    # user management
+    
     path('appnotas/', include("appnotas.urls", namespace='appnotas')),
     url('notasalunos/', include("notasalunos.urls", namespace='notasalunos')),
         
